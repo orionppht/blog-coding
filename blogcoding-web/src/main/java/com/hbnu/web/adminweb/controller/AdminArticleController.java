@@ -1,9 +1,9 @@
-package com.hbnu.admin.controller;
+package com.hbnu.web.adminweb.controller;
 
-import com.hbnu.admin.service.AdminArticleService;
 import com.hbnu.model.vo.adminweb.vo.article.PublishArticleReqVO;
 import com.hbnu.common.aspect.ApiOperationLog;
 import com.hbnu.common.response.Response;
+import com.hbnu.web.adminweb.service.AdminArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @Classname AdminArticleController
- * @Description 文章管理
+ * @Description 文章模块
  * @Date 2024/9/26 23:50
  * @Created by pht
  */
